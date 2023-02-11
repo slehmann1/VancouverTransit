@@ -1,0 +1,9 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station
+1,50001,Westbound Davie St @ Bidwell St,,49.286458,-123.140424,BUS ZN,,0,
+10000,59326,Northbound No. 5 Rd @ McNeely Dr,,49.179962,-123.09149,BUS ZN,,0,
+10001,59324,Northbound No. 5 Rd @ Woodhead Rd,,49.18267,-123.091448,BUS ZN,,0,
+10002,59323,Southbound No. 5 Rd @ Cambie Rd,,49.184252,-123.091627,BUS ZN,,0,
+10003,59325,Southbound No. 5 Rd @ Woodhead Rd,,49.182051,-123.091659,BUS ZN,,0,
+99952,,King George Station,,49.182790,-122.844737,ZN 3,,1,
+99957,,Mission City Station,,49.133694,-122.304898,WCE4Z,,1,
+99958,,Lonsdale Quay Station,,49.310142,-123.083309,ZN 2,,1,
