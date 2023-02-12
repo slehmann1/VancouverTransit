@@ -3,13 +3,15 @@ import time
 from  vancouver_transit_analyzer.GTFSPoll import GTFSPoll
 import schedule
 from schedule import Scheduler
+import random
 
 _started = False
-_POLL_FREQ = 10 # Minutes
+_POLL_FREQ = 10 
 
 def run():
     poll()
-    schedule.every(_POLL_FREQ).minutes.do(poll)
+    # Include the random int to prevent polling at the same time each day
+    schedule.every(_POLL_FREQ+random.randint(0,3)).minutes.do(poll)
     threading.Thread(target = run_continuously).start()
 
 
