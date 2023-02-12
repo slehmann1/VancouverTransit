@@ -10,9 +10,7 @@ from django.db import transaction
 
 _TEMP_LOC = "/temp"
 
-_DOWNLOAD_LINK = (
-    "https://gtfs-static.translink.ca/gtfs/History/2023-02-10/google_transit.zip"
-)
+_DOWNLOAD_LINK = "https://transitfeeds.com/p/translink-vancouver/29/latest/download"
 _ZIP_NAME = "google_transit.zip"
 _KEEP_NAME = "stops.txt"
 _CSV_NAME = "stops.csv"
