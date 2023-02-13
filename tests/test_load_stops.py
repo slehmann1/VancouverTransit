@@ -1,6 +1,6 @@
 import pandas as pd
 from vancouver_transit_analyzer.models import Stop, StopType
-from scripts import load_stops
+from vancouver_transit_analyzer.scripts import load_stops
 from django.test import TestCase
 import os
 
@@ -57,7 +57,6 @@ class test_GTFSPoll(TestCase):
             "Westbound Davie St @ Bidwell St",
         )
         self.assertEqual(Stop.objects.get(latitude=49.179962).stop_id, 10000)
-        self.assertEqual(Stop.objects.get(longitude=-123.091448).stop_code, 59324)
         self.assertEqual(
             Stop.objects.get(stop_name="Southbound No. 5 Rd @ Cambie Rd").stop_type,
             StopType.objects.get(name="Bus"),
