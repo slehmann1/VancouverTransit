@@ -2,7 +2,7 @@
 
 #### Map out which transit stops in Vancouver have the longest delays. 
 <p align="center">
-  <img src="ADD IMAGE LINK?raw=true" />
+  <img src="https://github.com/slehmann1/VancouverTransit/blob/main/resources/sampleMap.gif?raw=true" />
 </p>
 
 **Try it out [here](https://samuellehmann.com/transit).**
